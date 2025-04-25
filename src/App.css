@@ -1,0 +1,103 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+
+.heading {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+span{
+  font-size: 25px;
+  padding: 10px;
+
+}
+
+.buttonContainer {
+  
+  background-color: #080808;
+  width: 210px;
+  color: #fff;
+  padding: 10px 15px;
+  border: 5px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  border: 2px solid black;
+  padding: 10px 15px;
+  
+}
+ .btn-1{
+  background-color: #f9f9fa;
+  color: #131111;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+label {
+  text-align: left;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 80px;
+}
+
+.submitButton {
+  background-color: #28A745;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 16px;
+}
+.col-md-6 {
+  flex-basis: 50%;
+  padding: 20px;
+}
